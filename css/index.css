@@ -1,0 +1,360 @@
+/* 公共样式 */
+*{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:'宋体';
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+ul,li{
+	list-style:none;
+}
+/* 清除浮动 */
+.clear{
+	clear:both;
+}
+/* 布局样式 */
+.header,.banner,.content,.footer{
+	width:1024px;
+}
+.header{
+	height:77px;
+}
+.banner{
+	height:439px;
+}
+.content{
+	height:230px;
+}
+.footer{
+	height:80px;
+}
+/* 头部样式开始 */
+.header-left{
+	float:left;
+}
+.header-right{
+	float:right;
+}
+.header-left img{
+	margin:26px 0 0 20px;
+}
+.header-right .login{
+	width:143px;
+	height:18px;
+	background-color:#ececec;
+	padding-left:30px;
+	float:right;
+	margin-right:62px;
+}
+.header-right .login li{
+	float:left;
+	width:54px;
+	text-align:center;
+	line-height:18px;
+}
+.header-right .login li a{
+	font-size:12px;
+	font-family:'宋体';
+	font-weight:bold;
+}
+.header-right  .nav{
+	margin:14px 33px 0 0;
+}
+.header-right .nav li{
+	float:left;
+	width:115px;
+	height:15px;
+	line-height:15px;
+	border-right:1px solid #d8d8d8;
+	text-align:center;
+	position:relative;
+}
+.header-right .nav li .active{
+	color:#0b7bc9;
+}
+.header-right  .nav .last{
+	border:none;
+}
+.header-right  .nav .son .son-left{
+	width:8px;
+	height:20px;
+	background:url('../images/nav_left.png');
+}
+.header-right  .nav .son .son-right{
+	width:8px;
+	height:20px;
+	background:url('../images/nav_right.jpg');
+}
+.header-right  .nav .son .son-left,.header-right  .nav .son .son-center,.header-right  .nav .son .son-right{
+	float:left;
+}
+.header-right  .nav .son{
+	width:396px;
+	position:absolute;
+	left:12px;
+	top:20px;
+}
+.header-right  .nav .son .son-center{
+	background:url('../images/nav_center.jpg') repeat-x;
+}
+.header-right  .nav .son .son-center ul li{
+	width:76px;
+	height:20px;
+	line-height:20px;
+	border:none;
+}
+.header-right  .nav .son .son-center ul li a{
+	font-size:12px;
+	color:#fff;
+}
+/* 头部样式结束 */
+/* 广告图样式开始 */
+.banner img{
+	width:100%;
+}
+/* 广告图样式结束 */
+/* 内容样式开始 */
+.content .content-left,
+.content .content-center,
+.content .content-right{
+	float:left;
+}
+.content .content-left{
+	width:330px;
+	height:180px;
+	margin:22px 0 0 20px;
+}
+.content-left .title li{
+	float:left;
+}
+.content-left .title .action{
+	width:66px;`
+	height:22px;
+	text-align:center;
+	line-height:22px;
+	font-size:12px;
+	font-family:'宋体';
+	color:#333;
+	border:1px solid #ccc;
+	background:url('../images/title_bg.png');
+}
+.content-left .title .first{
+	border-right:none;
+}
+.content-left .title .active{
+	border-bottom:none;
+	background:none;
+}
+.content-left .title .more{
+	width:195px;
+	height:23px;
+	border-bottom:1px solid #ccc;
+	text-align:right;
+	line-height:28px;
+}
+.content-left .news{
+	margin:6px 0 0 6px;
+}
+.content-left .news li{
+	height:20px;
+	line-height:20px;
+}
+.content-left .news li a,
+.content-left .news li span{
+	font-size:12px;
+	font-family:'宋体';
+} 
+.content-left .news li a{
+	color:#666;
+}
+.content-left .news li span{
+	color:#89a1cf;
+	float:right
+}
+.content-left .bottom{
+	width:328px;
+	height:59px;
+	border:1px solid #ccc;
+	margin-top:15px;
+}
+.content-left .bottom li,
+.content-left .bottom li img,
+.content-left .bottom li p{
+	float:left;
+}
+.content-left .bottom li{
+	width:109px;
+	height:59px;
+	background:url('../images/l_line.png') no-repeat right center;
+}
+.content-left .bottom .last{
+	background:none;
+}
+.content-left .bottom li img{
+	margin:9px 0 0 6px;
+}
+.content-left .bottom li p{
+	font-size:12px;
+	font-family:'宋体';
+	color:#6b6b6b;
+	line-height:16px;
+	margin-top:14px;
+	text-align:center;
+}
+.content-left .bottom li p span{
+	color:#13449f;
+}
+.content .content-center{
+	width:319px;
+	height:188px;
+	margin:22px 0 0 36px;
+}
+.content-center .product{
+	position:relative;
+	width:317px;
+	height:105px;
+	border:1px solid #e7e7e7;
+	background:url('../images/pro_bg.png');
+}
+.content-center .product .pro_left,
+.content-center .product .pro_right{
+	position:absolute;
+	top:43px;
+	cursor:pointer;
+}
+.content-center .product .pro_left{
+	left:-10px;
+}
+.content-center .product .pro_right{
+	right:-10px;
+}
+.content-center .product .p_img{
+	float:left;
+	margin:21px 0 0 25px;
+}
+.content-center .product .p_ul{
+	float:right;
+	margin:8px 23px 0 0;
+}
+.content-center .product .p_ul li{
+	text-align:right;
+}
+.content-center .product .p_ul .one{
+	color:#999;
+	line-height:17px;
+}
+.content-center .product .p_ul .one span{
+	color:#585858;
+}
+.content-center .product .p_ul .two{
+	color:#13449f;
+	font-size:16px;
+	line-height:19px;
+}
+.content-center .product .p_ul .three{
+	color:#7e7e7e;
+	font-size:12px;
+	line-height:16px;
+}
+.content-center .center_bottom{
+	width:318px;
+	height:60px;
+	margin-top:20px;
+}
+.content-center .center_bottom li{
+	width:159px;
+	height:60px;
+	background:url('../images/l_line.png') no-repeat right center;
+}
+.content-center .center_bottom li .bottom-left,
+.content-center .center_bottom li .bottom-right{
+	float:left;
+}
+.content-center .center_bottom li .bottom-left{
+	margin:7px 9px 0 4px;	
+}
+.content-center .center_bottom li .bottom-right h2,
+.content-center .center_bottom li .bottom-right p{
+	font-size:12px;
+}
+.content-center .center_bottom li .bottom-right h2{
+	color:#8c8c8c;
+	line-height:16px;
+	margin-top:2px;
+}
+.content-center .center_bottom li .bottom-right p{
+	color:#7e7e7e;
+	line-height:14px;
+}
+.content-center .center_bottom li{
+	float: left;
+}
+.content-center .center_bottom li .bottom-right .more{
+	margin-top:2px;
+	float:right;
+}
+.content .content-right{
+	width:227px;
+	height:183px;
+	margin:22px 0 0 38px;
+}
+.content-right ul li h2{
+	width: 209px;
+	height: 22px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	line-height: 22px;
+	color: #5d5d5d;
+	padding-left: 16px;
+}
+.content-right ul li h2 span{
+	font-size: 12px;
+	color: #999;
+}
+.content-right ul li h2 img{
+	float: right;
+	margin: 7px;
+	cursor: pointer;
+}
+.content-right .detail .d-left{
+    float:left;
+	margin:10px 0 0 15px;
+}
+.content-right .detail .d-left span{
+    line-height:25px;
+	color:#13449f;
+}
+.content-right .detail .d-left p{
+    line-height:14px;
+	font-size:12px;
+	color:#333;
+}
+.content-right .detail .d-right{
+    float:right;
+	margin:12px 4px 11px 0;
+}
+.footer{
+	background:url(../wengdo/images/bg_03.png);
+}
+.footer .footer-left{
+	float: left;
+	margin: 27px 0 0 27px;
+}
+.footer .footer-left p{
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+}
+.footer .footer-right{
+	float: right;
+	width: 108px;
+	height: 18px;
+	line-height: 18px;
+	border:1px solid #a9aaaf;
+	font-size: 12px;
+	margin: 32px 57px 0 0
+}
